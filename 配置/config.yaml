@@ -1,12 +1,12 @@
 enable: true #这里控制整个config文件是否启用
 version: 7 #config的版本
 account:
-  cookie: "" #登入账号只需要修改这里就行了，下面会自动获取
+  cookie: "cookie_token_v2=v2_SK39w58K_TxScs2FY5NE87G0JKGDScXppAJf3stzaPox7vFBmefyHdm3xuoL4lpMBvSrno8Abh8vDHc3AB9twzp3t6Kob0d5b9L30CWK5gp4yqb0esY=; account_mid_v2=0y0j8myc3a_mhy; account_id_v2=81621908; ltoken_v2=v2_G1TkTk765jrt-32wBCt3sebR2tCEsfGxPAMsLLyIkjEBZV7xg3aYtf_1z5k66EnFLTeASi_VimJ6cSN5ges9d0i-UsxRmco=; ltmid_v2=0y0j8myc3a_mhy; ltuid_v2=81621908; _MHYUUID=b63c06d4-b76f-4aac-8456-ec9ce57e6197; account_mid_v2=0y0j8myc3a_mhy; account_id_v2=81621908; DEVICEFP_SEED_ID=07004fdc3a506591; DEVICEFP_SEED_TIME=1678798528685; DEVICEFP=38d7ed9ebe9c1; login_uid=81621908; login_ticket=rtEN7PPKVXA4sBp7lGKsXQX91ueGdwy030tlCgEL"
   login_ticket: ""
   stuid: ""
   stoken: ""
 mihoyobbs:
-  enable: true #控制bbs功能是否启用
+  enable: false #控制bbs功能是否启用
   checkin: true #社区签到
   checkin_multi: true #多个社区签到，关闭后只签到大别野
   checkin_multi_list: #签到的社区列表 详情可以看config文件夹下面的readme
@@ -19,7 +19,7 @@ mihoyobbs:
 games:
   cn: #国服控制区域
     enable: true #控制是否启用国内签到
-    useragent: "Mozilla/5.0 (Linux; Android 12; Unspecified Device) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36"
+    useragent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
     #配置签到用的ua 脚本会在后面自动加上miHoYoBBS/版本号 ,请复制的时候不要带miHoYoBBS/版本
     genshin: #原神自动签到
       auto_checkin: true #控制是否启用签到，下面一致
